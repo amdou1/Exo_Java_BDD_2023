@@ -27,7 +27,7 @@
            }
        }
     %>
- Nombre de lettre 'e' dans votre chaîne : <%= compteurE %>
+    Nombre de lettre 'e' dans votre chaîne : <%= compteurE %>
     </p>
 
     <h2>Exercice 2 : Affichage vertical</h2>
