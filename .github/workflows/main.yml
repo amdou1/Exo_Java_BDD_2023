@@ -38,6 +38,6 @@ RvryP0DBiqqIX8eCea2Z8MLd6hldNBGlcplJ9jcoghN3xDxrF9j5jszAwhTvW9gx
 AUspAoGAcZYJpQo/vI+uemCXp9O91ASfu8Mxbf4ZkFnmWL33XVYQP8SBSXrIwlnK
 8mahjSU4r4sWA+SZ0TSuJhdELqnRO/zRPScn1Jnq9xlAErnzbHVDyL65A5tR6EWZ
 1QjvTrDZK/7sToQ3sDzb3z7tj3kGJxSzu9WK+ScvE9zZ9NY18Kk= }}
-        port: ${{22}}
+        port: ${{ 22 }}
         source: "DiopAmadou.war"
         target: "/opt/tomcat/webapps"
