@@ -10,7 +10,7 @@
     <p><input type="submit" value="Afficher">
 </form>
 <%-- Récupération de la valeur saisie --%>
-<% String chaine = request.getParameter("chaine"); %>
+<% String chaine = request.getParameer("chaine"); %>
 
 <% if (chaine != null && chaine.length() >= 6) { %>
     <p>La longueur de votre chaîne est de <%= chaine.length() %> caractères</p>
@@ -23,7 +23,7 @@
     <% int compteurE = 0;
        for (int i = 0; i < chaine.length(); i++) {
            if (chaine.charAt(i) == 'e') {
-               compteurE++;
+               compteur++;
            }
        }
     %>
